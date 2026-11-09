@@ -1,0 +1,22 @@
+# Course-supplied datasets (large files; do not redistribute)
+UNSW_NB15_training-set.csv
+UNSW_NB15_testing-set.csv
+
+# Jupyter and Python local artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments and editor settings
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Generated experiment outputs
+outputs/
+artifacts/
+*.joblib
+*.pkl
